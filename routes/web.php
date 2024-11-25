@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Middleware\RedirectIfAuthenticated;
 use App\Livewire\Blog;
 use App\Livewire\Login;
 use App\Livewire\TestComponent;
