@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Login</title>
-    @livewireStyles
-</head>
-<body>
 <div>
     <h2>Login</h2>
-
     <form wire:submit.prevent="login">
         <!-- Campo de Email -->
         <div class="form-group">
@@ -30,7 +19,3 @@
         </div>
     </form>
 </div>
-
-@livewireScripts
-</body>
-</html>
