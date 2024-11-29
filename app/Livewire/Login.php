@@ -16,7 +16,7 @@ class Login extends Component
         'email' => 'required|email',
         'password' => 'required|min:6',
     ];
-    
+
     public function login()
     {        
         // dd($this->email, $this->password);
