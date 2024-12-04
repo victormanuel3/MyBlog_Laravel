@@ -19,7 +19,7 @@ class RedirectIfAuthenticated
         // Verificar si el usuario está autenticado
         if (Auth::check()) {
             // Redirigir a la ruta 'blog' si ya está autenticado
-            return redirect()->route('blog');
+            return redirect()->route('/');
         }
         
         // Si no está autenticado, permitir el acceso a la ruta original

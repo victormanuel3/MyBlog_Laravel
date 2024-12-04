@@ -19,7 +19,12 @@ class Post extends Model
         'content',
         'user_id'
     ];
-
+    /*Relacion pertenece a
+    $this->belongsTo(
+    Modelo a relacionar, 
+    foreign key(Laravel cuenta con uan convención que intuye que la foreign key es modelo actual_id),
+    primary key(Laravel intuye que es id);
+    )*/
     public function user(){
         return $this->belongsTo(User::class);
     }

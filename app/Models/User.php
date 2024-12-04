@@ -23,6 +23,14 @@ class User extends Authenticatable
         'password',
     ];
 
+    /*Relacion uno a muchos hasMany
+    $this->hasMany(
+    Modelo a relacionar, 
+    foreign key(Laravel cuenta con uan convención que intuye que la foreign key es modelo actual_id),
+    primary key(Laravel intuye que es id);
+    )
+    
+    */
     public function posts(){
         return $this->hasMany(Post::class);
     }

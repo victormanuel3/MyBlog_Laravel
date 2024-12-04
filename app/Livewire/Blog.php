@@ -9,7 +9,8 @@ use Livewire\Component;
 class Blog extends Component
 {
     public $search = '';
-    public $posts = [];
+    public $posts;
+    
     public function updatingSearch()  {
         $this->posts = Post::where('title', 
         'like', 

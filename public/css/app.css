@@ -1,13 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body{
-    background-color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap');
+
+body, html, main {
+    height: 100%;
+    width: 100%;
 }
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: blueviolet;
+    font-family: 'Funnel Display';
+    font-size: 21px;
+}
+*:focus {
+    outline: none;
+}
+nav {
+    display: flex;
+    border-radius: 20px;
+    position: sticky;
+    height: 69px;
+    width: 100%;
+    max-width: 670px;
+    background: white;
+    box-shadow: 2px 2px 5px rgb(183, 181, 181);
+    justify-content: space-around;
+    left: 50%; /* Mueve el elemento hacia la mitad de la pantalla */
+    transform: translateX(-50%); /* Ajusta para que se quede centrado */
+    top: 18px;
+    z-index: 10;
+}
+nav > div {
+    display: flex;
+    align-items: center;
+    column-gap: 37px;
+    color: #a19d9d;
+}
+nav i {
+    position: relative;
+    top: 1px;
+    font-size: 20px;   
+    margin-right: 7px;
+    font-weight: 100 !important;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 200;
+    position: relative;
+}
+nav > h1 {
+    display: flex;
+    font-family: "Yellowtail", cursive;
+    align-items: center;
+    color: #3838e6;
+    font-size: 33px;
+}
+.btn_login, .btn_publish_post {
+    background-color: #3838e6;
+    font-size: 16px;
+    width: 171px;
+    height: 44px;
+    color: white;
+    font-family: 'Funnel Display';
+    letter-spacing: 0.3px;
+    position: fixed;
+    top: 31px;
+    right: 40px;
+    border-radius: 33px;
+}
+.btn_login i {
+    color: #ffffff;
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-size: 27px;
+}
+.btn_publish_post {
+    position: sticky;
+    left: 100%;
+    margin-right: 45px;
+    bottom: 45px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 48px;
+    align-items: center;
+}
+.btn_publish_post p {
+    font-size: 16px;
+    margin-right: 13px;
+    font-weight: 100;
+}
+.btn_publish_post i {
+    font-size: 17px;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+.main_title {
+    margin-top: 61px;
+    text-align: center;
+    font-size: 40px;
 }
 .bi-search {
     top: 9px; 
@@ -24,3 +120,388 @@ body{
 .ipt_s::placeholder{
     color: rgb(160, 160, 160);
 }
+.sm\:block{
+    display: flex !important;
+    align-items: center !important;
+}
+.sm\:w-full {
+    width: auto !important;
+}
+#modal-container {
+    border-radius: 30px;
+}
+.container_create_post {
+    padding: 35px 30px;
+}
+.container_login {
+    padding: 35px;
+    position: relative;
+}
+.close_login{
+    position: absolute;
+    left: 397px;
+    top: 4px;
+    cursor: pointer;
+    font-size: 46px;
+    color: #3838e6;
+}
+.container_login > h1, .container_create_post > h1 {
+    font-size: 40px;
+    color: #8181ef;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+/*Formulario posts*/
+.close_create_post {
+    position: absolute;
+    right: 16px;
+    top: 6px;
+    cursor: pointer;
+    font-size: 46px;
+    color: #3838e6;
+}
+.container_create_post {
+    position: relative;
+}
+.container_create_post textarea {
+    border: #b3b3b3 solid 1px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    height: 127px;
+    color: black;
+    resize: none;
+}
+.container_create_post button > i {
+    font-size: 17px;
+}
+/*     ------     */
+.container_login button, .container_create_post button{
+    background-color: #3838e6;
+    color: white;
+    width: 391px;
+    height: 48px;
+    border-radius: 14px;    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 17px;
+    align-items: center;
+    margin-top: 26px;
+}
+.container_create_post button {
+    font-size: 16 !important;
+    font-weight: 100;
+}
+.container_login input, .container_create_post input {
+    border: #b3b3b3 solid 1px;
+    height: 43px;
+    color: black;
+    width: 391px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 7px;
+}
+.container_login input:focus, .container_create_post input:focus,  .container_create_post textarea:active {
+    border: 1px solid #8989e8;
+    outline: none;
+}
+.container_login input::placeholder, .container_create_post input::placeholder {
+    font-size: 15px;
+}
+.container_login label, .container_create_post label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #6c6c6c;
+    letter-spacing: 0.5px;
+}
+.container_login button > i {
+    font-size: 17px;
+}
+.container-ipt, .container-ipt_post {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+.container_card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.container_card .card_user > div {
+    display: flex;
+    margin-top: 25px;
+}
+.card_user {
+    margin-top: 97px;
+    box-shadow: 2px 2px 6px #c7c7c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 43px;
+    padding: 32px 63px;
+    padding-top: 48px;
+    position: relative;
+}
+.card_user img {
+    height: auto;
+    width: 103px;
+    position: absolute;
+    top: -54px;
+}
+.card_user div > p {
+    width: 147px;
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    height: 49px;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+}
+.card_user div > p > span {
+    height: 34px;
+}
+.card_user div > p > span:first-child {
+    font-size: 28px;
+    color: #8181ef;
+    font-weight: 500;
+}
+.card_user div > p > span:last-child {
+    font-size: 16px;
+    height: 32px;
+    color: #838383;
+}
+.card_user > p:first-of-type{
+    font-size: 63px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    color: #707070;
+    font-weight: 100;
+}
+.card_user > p:nth-of-type(2){
+    color: grey;
+    font-weight: 100;
+    font-size: 18px;
+}
+.card_user hr{
+    height: 49px;
+    border: 0.5px solid #f5f5f5;
+}
+.container_user_posts {
+    display: grid;
+    /*El auto fit mira si cabe otra celda, sino la manda abajo.*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 381px));
+    justify-content: center;
+    place-items: center; /* Centra vertical y horizontalmente */
+    gap: 68px 80px;
+    padding: 0 20px;
+    margin-top: 40px;
+}
+.container_user_posts section{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d7d7d7;
+    width: 100%;
+    height: 265px; 
+    background-color: #fdfdfd;
+    row-gap: 4px;
+    overflow: hidden; /* Esconde el contenido si se desborda */
+    position: relative;
+}
+.likes_and_delete {
+    position: absolute;
+    bottom: 15px;
+    right: 21px;
+}
+.likes_and_delete > span {
+    color: #35d152;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 100;
+    margin-right: 5px;
+}
+.likes_and_delete > span i { 
+    margin-right: 4px;
+}
+.container_user_posts section .delete_post {
+    color: red;
+    cursor: pointer;
+}
+.container_user_posts section h1 {
+    color: black;
+    font-size: 24px;
+    font-family: "Pathway Extreme", serif;
+    line-height: 34px;
+    font-weight: 500;
+}
+.container_user_posts section p:first-of-type {
+    font-size: 13px;
+    display: flex;
+    place-items: center;
+    color:#949494;
+}
+.container_user_posts section > i:first-of-type {
+    position: absolute;
+    right: 15px;
+    top: 19px;
+    font-size: 23px;
+    color: #b3b1b1;
+    cursor: pointer;
+}
+.container_user_posts section h2 {
+    color: #a9a7a7;
+    font-size: 19px;
+    line-height: 26px;
+}
+.container_user_posts section > a{
+    font-size: 14px;
+    display: flex;
+    place-items: center;
+    gap: 5px;
+    margin-top: auto;
+    cursor: pointer;
+}
+.container_user_posts section a > i::before {
+    font-size: 15px;
+    display: flex;
+}
+/* ----- container blog ----- */
+
+.container_view_blog > p:first-of-type {
+    margin-top: 49px;
+    font-size: 32px;
+    padding-left: 63px;
+}
+.container_view_blog > h1:first-of-type {
+    text-align: center;
+    font-size: 53px;
+    color: #3838e6;
+    font-weight: 100;
+}
+/* ------- Search ------- */
+
+.post_not_found {
+    color: #cbcbcb;
+    font-size: 37px;
+}
+.container_search {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 53px;
+}
+.container_search > label {
+    position: relative;
+}
+.container_search input {
+    border: 1px solid #5353e999;
+    width: 686px;
+    height: 47px;
+    border-radius: 11px;
+    padding-left: 43px;
+    color: rgb(25, 25, 25);
+    font-weight: 100;
+    padding-right: 10px;
+    font-size: 19px;
+}
+.container_search > label > i {
+    position: absolute;
+    left: 13px;
+    top: 9px;
+    color: #5353e999;
+}
+.container_search input::placeholder {
+    color: #b3aeae;
+    font-weight: 100;
+    font-size: 19px;
+}
+
+/* Error en los campos ---------- */
+
+.error_field {
+    font-size: 14px;
+    width: 391px;
+    color: red;
+}
+/* Page post --------------------*/
+.page_post {
+    width: 100%;
+    height: 100%;
+    padding: 64px 200px 0px 200px;
+}
+.page_post > .posts_details {
+    padding: 40px;
+    min-height: 100%;
+    border: 1px solid #bbb6b6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+.posts_details .container_detailts > span {
+    color: #979696;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+}
+.posts_details .container_detailts > span:first-child > i {
+    color: #514e4e;
+    margin-right: 8px;
+}
+.posts_details .container_detailts > h1:first-of-type {
+    font-size: 71px;
+    width: 60%;
+    line-height: 66px;
+    margin-top: 23px;
+    margin-bottom: 29px;
+    color: #3838e6;
+    font-weight: 600;
+}
+.posts_details .container_detailts > h2:first-of-type {
+    font-size: 40px;
+    width: 60%;
+    line-height: 42px;
+    color: #b9b5b5;
+    font-weight: 500;
+    margin-bottom: 48px;
+}
+.posts_details .container_detailts > p {
+    font-size: 28px;
+    text-align: justify;
+    font-weight: 100;
+}
+.post_interations {
+    display: flex;
+    align-items: center;
+    margin-top: 170px;
+    gap: 37px;
+}
+.post_interations > span {
+    display: flex;
+    color: #35d152;
+    gap: 10px;
+    place-items: center;
+    font-size: 19px;
+    font-weight: 400;
+}
+.post_interations > span > i {
+    font-size: 21px;
+    padding-top: 2px;
+}
+.post_interations > span:last-of-type {
+    color: rgb(37, 36, 36);
+}
+.post_interations > span:last-of-type > i {
+    font-weight: 400;
+}
+/* font-family: "IBM Plex Mono", monospace; */
+/* font-family: "Bebas Neue", sans-serif; */
+
+

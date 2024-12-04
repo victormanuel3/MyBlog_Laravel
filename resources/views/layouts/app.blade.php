@@ -5,26 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
-    <link rel="stylesheet" href={{asset('/css/app.css')}}>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.1/css/sharp-thin.css">
     @livewireStyles
+    <link rel="stylesheet" href={{asset('/css/app.css')}}>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <p class="navbar-brand">Víctor Manuel</p>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href={{route('blog')}}>Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href={{route('user.profile')}}>Profile</a>
-            </li>
-          </ul>
-        </div>
+  @auth
+    <nav>
+      <h1>Víctor Manuel</h1>
+      <div>
+          <a href={{route('home')}}><i class="bi bi-house"></i>Home</a>
+          <a href={{route('blog')}}><i class="fa-regular fa-grid"></i>Blog</a>
+          <a href={{route('user.profile')}}><i class="bi bi-person"></i>My profile</a>
+      </div>
     </nav>
+    @endauth
     <main>
         {{ $slot }}
     </main>   

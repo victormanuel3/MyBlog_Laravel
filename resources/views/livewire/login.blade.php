@@ -1,21 +1,21 @@
-<div>
-    <h2>Login</h2>
+<div class="container_login">
+    <i wire:click="$dispatch('closeModal')" class="close_login bi bi-x"></i>
+    <h1>Login</h1>
     <form wire:submit.prevent="login">
-        <!-- Campo de Email -->
-        <div class="form-group">
+        <div class="container-ipt">
             <label>
-                Email<input type="email" wire:model="email" id="email" name="email" required/>
+                Email<input type="email" wire:model="email" id="email" name="email" 
+                placeholder="enter the email"  
+                required/>
+            </label>
+            <label>
+                Contraseña
+                <input type="password" wire:model="password" 
+                placeholder="enter the password" 
+                id="password" 
+                name="password" required/>
             </label>
         </div>
-        <!-- Campo de Password -->
-        <div class="form-group">
-            <label>
-                Contraseña:<input type="password" wire:model="password" id="password" name="password" required/>
-            </label>
-        </div>
-        <!-- Botón -->
-        <div class="form-group">
-            <button type="submit">prueba</button>
-        </div>
+        <button type="submit">Login<i class="bi bi-arrow-right"></i></button>
     </form>
 </div>

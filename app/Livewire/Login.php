@@ -5,16 +5,16 @@ namespace App\Livewire;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
-use Livewire\Component;
+use LivewireUI\Modal\ModalComponent;
 
-class Login extends Component
+class Login extends ModalComponent
 {
     public $email, $password, $count = 0;
 
     //Reglas de validación para el formulario de login
     protected $rules = [
         'email' => 'required|email',
-        'password' => 'required|min:6',
+        'password' => 'required|min:6'
     ];
 
     public function login()

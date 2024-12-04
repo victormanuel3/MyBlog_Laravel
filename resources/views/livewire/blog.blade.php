@@ -1,27 +1,31 @@
-<div class="container" style="font-family: Montserrat, sans-serif;">
+<div class="container_view_blog">
     <p>¡Bienvenido a mí primer blog de laravel {{$user->name}}!</p>
     <h1>View posts</h1>
     {{-- barra de búsquerda --}}
-    <label class="w-100 mb-5" for="search">
-        <div class="w-70 position-relative">
-            <i class="bi bi-search position-absolute"></i>
-            <input class="ipt_s w-100 rounded-4" style="height: 48px; padding-left: 45px;" 
-            type="search" wire:model.live="search" id="search" placeholder="filtrar posts">
-        </div>
-    </label>
+    <div class="container_search">
+        <label>
+            <i class="bi bi-search"></i>
+            <input type="search" wire:model.live="search" placeholder="Filter posts">
+        </label>
+    </div>
     {{--  --}}
-    <div class="row">
-        {{-- diferencia entre el wire:model.live y sin el .live --}}
-        @foreach ($posts as $post)
-        <div class="col-12 col-md-6 mb-4">
-            <section class="border-0 p-4 h-100" style="background-color: white; box-shadow: 4px 4px 10px #8080807d">
-                <p>{{$post->user->name}}</p>
-                <div>
-                    <h1 class="text-black text-center">{{ $post->title }}</h1>
-                    <h2 class="text-center text-secondary">{{ $post->subtitle }}</h2>
+    <div class="container_user_posts">
+        @if ($posts->isEmpty())
+            <p class="post_not_found">No post found.</p>
+        @else
+            @foreach ($posts as $p)
+            <section>
+                <p>{{$p->user->name}}</p>
+                <h1>{{$p->title}}</h1>
+                <h2>{{$p->subtitle}}</h2>
+                <div class="likes_and_delete">
+                    <span class="likes">
+                        <i class="fa-regular fa-heart"></i>2
+                    </span>
                 </div>
+                <a href={{ route('blog.post', $p->id) }}>view more<i class="bi bi-arrow-right"></i></a>
             </section>
-        </div>
-        @endforeach
+            @endforeach
+        @endif
     </div>
 </div>
