@@ -30,6 +30,13 @@
                     <p>{{$p->user->name}}</p>
                     <h1>{{$p->title}}</h1>
                     <h2>{{$p->subtitle}}</h2>
+                    <div class="list_categories">
+                        <ul>
+                            @foreach ($p->categories as $category)
+                                <li>{{$category->category}}</li>
+                            @endforeach
+                        </ul>
+                    </div>
                     <div class="likes_and_delete">
                         <span class="likes">
                             <i class="fa-regular fa-heart"></i>2

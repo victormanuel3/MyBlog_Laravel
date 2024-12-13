@@ -16,13 +16,9 @@ Route::middleware('auth')->group(function(){
     Route::get(uri: '/blog', action: Blog::class)->name('blog');
     Route::get(uri: '/blog/profile',action:UserProfile::class)->name('user.profile');
     Route::get(uri: '/blog/post/{id}',action:PostComponent::class)->name('blog.post');
+
+    
 });
-
-
-
-
-
-
 
 // Ruta para logout (desloguear al usuario)
 Route::post('/logout', function () {

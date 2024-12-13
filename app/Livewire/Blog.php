@@ -12,14 +12,20 @@ class Blog extends Component
     public $posts;
     
     public function updatingSearch()  {
-        $this->posts = Post::where('title', 
-        'like', 
-        "%{$this->search}%"
-        )->orderBy('title')->get();
+        $this->posts = Post::where(
+            'title',
+            'like',
+            "%{$this->search}%"
+        )->orWhereHas('categories', function ($query) {
+            $query->where(
+                'category',
+                'like',
+                "%{$this->search}%"
+            );
+        })->orderBy('title')->get();
     }
 
     public function render(){
-        // dd(Auth::user()->id);
         //Datos del usuario autenticado
         $user = Auth::user();
         if ($this->search == ''){

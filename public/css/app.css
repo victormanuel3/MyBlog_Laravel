@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Funnel+Display:wght@300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lexend+Exa:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedgwick+Ave+Display&family=Yellowtail&display=swap");
 
-body, html, main {
+body,
+html,
+main {
     height: 100%;
     width: 100%;
 }
@@ -12,7 +14,7 @@ body, html, main {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Funnel Display';
+    font-family: "Funnel Display";
     font-size: 21px;
 }
 *:focus {
@@ -42,7 +44,7 @@ nav > div {
 nav i {
     position: relative;
     top: 1px;
-    font-size: 20px;   
+    font-size: 20px;
     margin-right: 7px;
     font-weight: 100 !important;
 }
@@ -58,13 +60,14 @@ nav > h1 {
     color: #3838e6;
     font-size: 33px;
 }
-.btn_login, .btn_publish_post {
+.btn_login,
+.btn_publish_post {
     background-color: #3838e6;
     font-size: 16px;
     width: 171px;
     height: 44px;
     color: white;
-    font-family: 'Funnel Display';
+    font-family: "Funnel Display";
     letter-spacing: 0.3px;
     position: fixed;
     top: 31px;
@@ -106,8 +109,8 @@ nav > h1 {
     font-size: 40px;
 }
 .bi-search {
-    top: 9px; 
-    left: 16px; 
+    top: 9px;
+    left: 16px;
     font-size: 20px;
     color: #a7a7a7;
 }
@@ -117,10 +120,10 @@ nav > h1 {
     font-size: 20px;
     font-weight: 300;
 }
-.ipt_s::placeholder{
+.ipt_s::placeholder {
     color: rgb(160, 160, 160);
 }
-.sm\:block{
+.sm\:block {
     display: flex !important;
     align-items: center !important;
 }
@@ -137,7 +140,7 @@ nav > h1 {
     padding: 35px;
     position: relative;
 }
-.close_login{
+.close_login {
     position: absolute;
     left: 397px;
     top: 4px;
@@ -145,7 +148,8 @@ nav > h1 {
     font-size: 46px;
     color: #3838e6;
 }
-.container_login > h1, .container_create_post > h1 {
+.container_login > h1,
+.container_create_post > h1 {
     font-size: 40px;
     color: #8181ef;
     margin-bottom: 7px;
@@ -175,12 +179,13 @@ nav > h1 {
     font-size: 17px;
 }
 /*     ------     */
-.container_login button, .container_create_post button{
+.container_login button,
+.container_create_post button {
     background-color: #3838e6;
     color: white;
     width: 391px;
     height: 48px;
-    border-radius: 14px;    
+    border-radius: 14px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -192,7 +197,8 @@ nav > h1 {
     font-size: 16 !important;
     font-weight: 100;
 }
-.container_login input, .container_create_post input {
+.container_login input,
+.container_create_post input {
     border: #b3b3b3 solid 1px;
     height: 43px;
     color: black;
@@ -202,14 +208,18 @@ nav > h1 {
     padding-right: 10px;
     margin-bottom: 7px;
 }
-.container_login input:focus, .container_create_post input:focus,  .container_create_post textarea:active {
+.container_login input:focus,
+.container_create_post input:focus,
+.container_create_post textarea:active {
     border: 1px solid #8989e8;
     outline: none;
 }
-.container_login input::placeholder, .container_create_post input::placeholder {
+.container_login input::placeholder,
+.container_create_post input::placeholder {
     font-size: 15px;
 }
-.container_login label, .container_create_post label {
+.container_login label,
+.container_create_post label {
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -219,7 +229,8 @@ nav > h1 {
 .container_login button > i {
     font-size: 17px;
 }
-.container-ipt, .container-ipt_post {
+.container-ipt,
+.container-ipt_post {
     display: flex;
     flex-direction: column;
     row-gap: 18px;
@@ -246,7 +257,7 @@ nav > h1 {
     padding-top: 48px;
     position: relative;
 }
-.card_user img {
+.card_user > img {
     height: auto;
     width: 103px;
     position: absolute;
@@ -276,7 +287,7 @@ nav > h1 {
     height: 32px;
     color: #838383;
 }
-.card_user > p:first-of-type{
+.card_user > p:first-of-type {
     font-size: 63px;
     height: 61px;
     display: flex;
@@ -284,12 +295,12 @@ nav > h1 {
     color: #707070;
     font-weight: 100;
 }
-.card_user > p:nth-of-type(2){
+.card_user > p:nth-of-type(2) {
     color: grey;
     font-weight: 100;
     font-size: 18px;
 }
-.card_user hr{
+.card_user hr {
     height: 49px;
     border: 0.5px solid #f5f5f5;
 }
@@ -303,13 +314,13 @@ nav > h1 {
     padding: 0 20px;
     margin-top: 40px;
 }
-.container_user_posts section{
+.container_user_posts section {
     padding: 15px;
     display: flex;
     flex-direction: column;
     border: 1px solid #d7d7d7;
     width: 100%;
-    height: 265px; 
+    height: 265px;
     background-color: #fdfdfd;
     row-gap: 4px;
     overflow: hidden; /* Esconde el contenido si se desborda */
@@ -327,7 +338,7 @@ nav > h1 {
     font-weight: 100;
     margin-right: 5px;
 }
-.likes_and_delete > span i { 
+.likes_and_delete > span i {
     margin-right: 4px;
 }
 .container_user_posts section .delete_post {
@@ -345,7 +356,7 @@ nav > h1 {
     font-size: 13px;
     display: flex;
     place-items: center;
-    color:#949494;
+    color: #949494;
 }
 .container_user_posts section > i:first-of-type {
     position: absolute;
@@ -359,8 +370,9 @@ nav > h1 {
     color: #a9a7a7;
     font-size: 19px;
     line-height: 26px;
+    margin-bottom: 16px;
 }
-.container_user_posts section > a{
+.container_user_posts section > a {
     font-size: 14px;
     display: flex;
     place-items: center;
@@ -443,12 +455,12 @@ nav > h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 40px;
+    row-gap: 233px;
 }
 .posts_details .container_detailts > span {
     color: #979696;
     font-size: 20px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
 }
 .posts_details .container_detailts > span:first-child > i {
@@ -477,13 +489,13 @@ nav > h1 {
     text-align: justify;
     font-weight: 100;
 }
-.post_interations {
+.post_interations > .count_likes_comments {
     display: flex;
     align-items: center;
     margin-top: 170px;
-    gap: 37px;
+    gap: 31px;
 }
-.post_interations > span {
+.post_interations > .count_likes_comments > span {
     display: flex;
     color: #35d152;
     gap: 10px;
@@ -491,17 +503,171 @@ nav > h1 {
     font-size: 19px;
     font-weight: 400;
 }
-.post_interations > span > i {
+.post_interations > .count_likes_comments > span > i {
     font-size: 21px;
     padding-top: 2px;
 }
-.post_interations > span:last-of-type {
+.post_interations > .count_likes_comments > span:last-of-type {
     color: rgb(37, 36, 36);
+    font-weight: 100;
 }
-.post_interations > span:last-of-type > i {
-    font-weight: 400;
+.post_interations > .count_likes_comments > hr {
+    height: 24px;
+    width: 0.3px;
+    background-color: #b7b3b3;
 }
-/* font-family: "IBM Plex Mono", monospace; */
-/* font-family: "Bebas Neue", sans-serif; */
+.post_interations > .count_likes_comments > span:last-of-type > i {
+    font-weight: 300;
+}
 
+/*COMMENTS -------------------------------------- */
+.comments > .add_comment {
+    width: 100%;
+    padding: 0px 38px;
+    height: 100px;
+    position: relative;
+    margin-top: 30px;
+}
+.comments > .add_comment textarea {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    resize: none;
+    background-color: #f2f2f2;
+    border-radius: 14px;
+    border: 1px solid #c9c9c9;
+    color: rgb(36, 36, 36);
+    font-size: 17px;
+    font-weight: 100;
+    overflow: hidden;
+}
+.comments > .add_comment textarea::placeholder {
+    font-size: 18px;
+    font-weight: 100;
+}
+.comments > .add_comment > button {
+    position: absolute;
+    bottom: 8px;
+    right: 45px;
+    background-color: #3838e6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*----------------------*/
+/* Comentarios -------- */
+.post_interations > .comments > hr {
+    height: 2px;
+    margin: 30px 19px;
+    background-color: #d2d0d0;
+}
+.post_interations > .comments > .container-comments {
+    padding: 0px 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.container-comments .comment {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.container-comments .comment > .body_comment {
+    display: flex;
+    gap: 14px;
+}
+.container-comments .comment > .body_comment div:last-of-type {
+    padding-top: 2px;
+}
+.container-comments .comment > .body_comment > .img_profile {
+    display: contents;
+}
+.container-comments .comment > .body_comment img {
+    object-fit: contain;
+    width: auto;
+    height: 45px;
+}
+.container-comments .comment > .body_comment .user_comment {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.container-comments .comment > .body_comment .user_comment > p {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+.container-comments .comment > .body_comment .user_comment > span {
+    font-size: 10px;
+    color: #a3a3a3;
+}
+.container-comments .comment > .body_comment .user_comment > .time_relative {
+    font-size: 12px;
+    font-weight: 100;
+    color: #a3a3a3;
+}
 
+.container-comments .comment > .body_comment > div:last-of-type > p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: -3px;
+}
+.container-comments .comment > .body_comment > div:last-of-type > span {
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: 11px;
+    color: grey;
+    cursor: pointer;
+}
+.replies {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.reply {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.container-ipt_post select {
+    border: #b3b3b3 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    color: #5d5d5d;
+    height: 43px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+.list_categories > ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 391px;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.list_categories > ul > li {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #464646;
+    padding: 5px 15px 4px 15px;
+    font-weight: 100;
+    background-color: #dadada;
+    border-radius: 14px;
+    border-top-left-radius: 0px;
+}
+.list_categories > ul > li > i {
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #464646;
+    font-weight: 600;
+}

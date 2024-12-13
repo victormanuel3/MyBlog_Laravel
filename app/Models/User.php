@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -29,11 +28,20 @@ class User extends Authenticatable
     foreign key(Laravel cuenta con uan convención que intuye que la foreign key es modelo actual_id),
     primary key(Laravel intuye que es id);
     )
-    
     */
     public function posts(){
         return $this->hasMany(Post::class);
     }
+    /* --------------------------------------------------------------------------------------------- */
+    public function comments() {
+        return $this->hasMany(Comment::class);
+    }
+
+    /* -------------------------------------------------------------------------------------------- */
+    public function likes() {
+        // Un usuario le ha dado like a varios posts.
+    }
+
     /**
      * The attributes that should be hidden for serialization.
      *

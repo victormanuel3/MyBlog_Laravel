@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\Category;
+use App\Models\Comment;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
@@ -14,7 +16,25 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        Post::factory(10)->create();
+        // Category::insert([
+        //     ['category' => 'Tecnología'],
+        //     ['category' => 'Estilo de Vida'],
+        //     ['category' => 'Educación'],
+        //     ['category' => 'Entretenimiento'],
+        //     ['category' => 'Negocios'],
+        //     ['category' => 'Ciencia'],
+        //     ['category' => 'Deportes'],
+        //     ['category' => 'Opinión'],
+        //     ['category' => 'Noticias'],
+        //     ['category' => 'Arte y Cultura'],
+        // ]);
+
+        // Comment::factory(4)->create([
+        //     'body' => 'Comentario inicial del post.',
+        //     'commentable_type' => Post::class,
+        //     'commentable_id' => Post::inRandomOrder()->first()->id,
+        //     'user_id' => User::inRandomOrder()->first()->id
+        // ]);
 
         //User::factory()->create([
         //    'name' => 'Test User',
@@ -22,3 +42,15 @@ class DatabaseSeeder extends Seeder
         //]);
     }
 }
+// 'category' => fake()->randomElement([
+//     'Tecnología',
+//     'Estilo de Vida',
+//     'Educación',
+//     'Entretenimiento',
+//     'Negocios',
+//     'Ciencia',
+//     'Deportes',
+//     'Opinión',
+//     'Noticias',
+//     'Arte y Cultura',
+// ])

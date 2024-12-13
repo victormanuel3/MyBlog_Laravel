@@ -12,7 +12,7 @@
     <link rel="stylesheet" href={{asset('/css/app.css')}}>
 </head>
 <body>
-  @auth
+    @auth
     <nav>
       <h1>Víctor Manuel</h1>
       <div>
@@ -27,5 +27,5 @@
     </main>   
     @livewire('wire-elements-modal')
     @livewireScripts
-</body>
+  </body>
 </html>
